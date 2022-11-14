@@ -1,5 +1,7 @@
 import React from "react";
 
+import './styles.scss';
+
 import SquarComponent from "./square/component";
 
 const SquarsComponent = ({number, minus, plus}) => (
@@ -11,6 +13,13 @@ const SquarsComponent = ({number, minus, plus}) => (
             minus = {minus}
             plus = {plus}
         />
+
+        <SquarComponent
+            number = {number}
+            minus = {minus}
+            plus = {plus}
+        />
+        
         <SquarComponent
             number = {number}
             minus = {minus}
