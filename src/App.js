@@ -5,6 +5,8 @@ import './App.css';
 const App = () => (
   <div className="App">
     <Squares/>
+    <Squares/>
+    <Squares/>
   </div>
 );
 
